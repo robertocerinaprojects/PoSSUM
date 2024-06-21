@@ -5,6 +5,8 @@
 # PoSSUM
 A protocol to poll social-media users unobtrusively and inexpensively using multimodal Large Language Models (LLMs).
 
+## How to cite
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
