@@ -11,4 +11,4 @@ A protocol to poll social-media users unobtrusively and inexpensively using mult
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-If you have questions, please email me at r.cerina@uva.nl.
+If you have questions, please send me an email at r.cerina@uva.nl.
