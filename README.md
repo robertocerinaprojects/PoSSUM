@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/robertocerinaprojects/PoSSUM/assets/51832016/51ea6c71-b4cd-4e7c-b7ca-eb9608ea868d" alt="PossumLogo" width="200" />
+  <img src="https://github.com/robertocerinaprojects/PoSSUM/assets/51832016/c6aab730-ec8c-4bda-a9a3-2024594b0ec8" alt="PossumLogo" width="200" />
 </p>
+
 
 # PoSSUM
 A protocol to poll social-media users unobtrusively and inexpensively using multimodal Large Language Models (LLMs).
