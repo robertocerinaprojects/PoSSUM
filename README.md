@@ -15,7 +15,7 @@ This repository contains the following information:
     + Part 1. Involves the preparation of a `Stratification Frame', which is necessary to weight the data and generate quotas;
     + Part 2. Is the running of the poll itself;
     + Part 3. Describes the weighting according to MrP;
-    + [README_BEFORE_NEW_POLL.txt](./R_scripts/README_BEFORE_NEW_POLL.txt) describes scripts that have to be tweaked to reflect the pollster's desires before re-running each poll;
+    + [README_BEFORE_NEW_POLL.txt](./R%20scripts/README_BEFORE_NEW_POLL.txt) describes scripts that have to be tweaked to reflect the pollster's desires before re-running each poll;
 - The [utils](./utils) folder presents a series of helpful functions to execute the protocol;
 - The [exe](./exe) script runs the poll from top to bottom. This should only be executed after the parameters described in [README_BEFORE_NEW_POLL.txt](./R_scripts/README_BEFORE_NEW_POLL.txt) are updated. 
   
