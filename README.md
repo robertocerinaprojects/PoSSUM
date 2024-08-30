@@ -22,7 +22,7 @@ This repository contains the following information:
 ## Comparison of PoSSUM Estimates v. Other Pollsters
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1edd9c15-2d81-4a98-a951-a608a838c7c0"
-alt="CrossPollsters_Topline_Comparison" width="500" />
+alt="CrossPollsters_Topline_Comparison" width="750" />
 </p>
 
 
