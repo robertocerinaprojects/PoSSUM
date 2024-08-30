@@ -8,7 +8,7 @@ A protocol to poll social-media users unobtrusively and inexpensively using mult
 
 ## How to use this repository 
 This repository contains the following information: 
-- The [Technical Report](./PoSSUM_Technical_Report) is a detail note on how the protocol works. It contains a detailed description of the algorithmic routines used within, as well as the statistical models used to weight the data. It also presents granular crosstab-level comparisons of PoSSUM's estimates against those of other pollsters in the field during similar dates; 
+- The [Technical Report](./PoSSUM_Technical_Report.pdf) is a detail note on how the protocol works. It contains a detailed description of the algorithmic routines used within, as well as the statistical models used to weight the data. It also presents granular crosstab-level comparisons of PoSSUM's estimates against those of other pollsters in the field during similar dates; 
 - The [survey_objects](./survey_objects) folder contains anonymised, dated, survey-like microdata generated at each round of PoSSUM polling for the 2024 US election;
 - The [press_releases](./press_releases) folded contains topline and crosstabs summaries for each PoSSUM poll fielded during the 2024 US election;
 - The [R scripts](./R_scripts) folder contains every R script necessary to run the PoSSUM protocol and the weighting procedue. The code is a bit rough at this stage - the intention is to slowly clean it up as time allows and make it accessible to the wider public, but for now only savy users who understand the technical report will be able to run it on their own machines. Each sub-directory's scripts are presented according to execution order. The code is divided in three parts:
