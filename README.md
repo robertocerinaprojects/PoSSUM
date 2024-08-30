@@ -19,29 +19,23 @@ This repository contains the following information:
 - The [utils](./utils) folder presents a series of helpful functions to execute the protocol;
 - The [exe](./exe.R) script runs the poll from top to bottom. This should only be executed after the parameters described in [README_BEFORE_NEW_POLL.txt](./R%20scripts/README_BEFORE_NEW_POLL.txt) are updated. 
 
-## PoSSUM Estimates
-\begin{table}[htp]
-\caption{Topline estimates of 2024 Vote Choice.}
-\label{tab:topline}
-\centering
-\rowcolors{2}{gray!15}{white}
-\begin{tabular}[t]{lll}
-\toprule
-Population & Vote2024 & Topline\\
-\midrule
-Voters & Kamala Harris & 45.8 ( 43.8 , 47.8 )\\
-Voters & Donald Trump (R) & 45.6 ( 43.3 , 47.2 )\\
-Voters & Robert F. Kennedy Jr. (Ind.) & 5.5 ( 3.8 , 7.5 )\\
-Voters & Jill Stein (G) & 0.9 ( 0.5 , 2.6 )\\
-Voters & Cornel West (Ind.) & 0.8 ( 0.4 , 1.8 )\\
-\addlinespace
-Voters & Chase Oliver (L) & 1 ( 0.4 , 1.9 )\\
-Adults & Stay Home & 28.3 ( 26 , 30.5 )\\
-Adults & Turnout & 71.7 ( 69.5 , 74 )\\
-\bottomrule
-\end{tabular}
-\end{table}
+## PoSSUM Estimates (23/08/2024)
 
+### Topline estimates of 2024 Vote Choice
+
+| Population | Vote2024                      | Topline               |
+|------------|--------------------------------|-----------------------|
+| Voters     | Kamala Harris                  | 45.8 (43.8, 47.8)     |
+| Voters     | Donald Trump (R)               | 45.6 (43.3, 47.2)     |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   | 5.5 (3.8, 7.5)        |
+| Voters     | Jill Stein (G)                 | 0.9 (0.5, 2.6)        |
+| Voters     | Cornel West (Ind.)             | 0.8 (0.4, 1.8)        |
+| Voters     | Chase Oliver (L)               | 1 (0.4, 1.9)          |
+| Adults     | Stay Home                      | 28.3 (26, 30.5)       |
+| Adults     | Turnout                        | 71.7 (69.5, 74)       |
+
+
+### Cross-Pollsters Comparison
 Below is a comparison of PoSSUM Estimates (The main PoSSUM estimate is **PoSSUM MrP** - see the Techincal Report for a description of the other estimates) for users polled between 15/08/2024 and 23/08/2024. 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1edd9c15-2d81-4a98-a951-a608a838c7c0"
