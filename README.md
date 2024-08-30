@@ -4,7 +4,7 @@
 
 
 # PoSSUM
-A protocol to poll social-media users unobtrusively and inexpensively using multimodal Large Language Models (LLMs).
+A Protocol for Surveying Social-media Users with Multimodal LLMs
 
 ## How to use this repository 
 This repository contains the following information: 
