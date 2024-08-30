@@ -19,7 +19,8 @@ This repository contains the following information:
 - The [utils](./utils) folder presents a series of helpful functions to execute the protocol;
 - The [exe](./exe.R) script runs the poll from top to bottom. This should only be executed after the parameters described in [README_BEFORE_NEW_POLL.txt](./R%20scripts/README_BEFORE_NEW_POLL.txt) are updated. 
 
-## Comparison of PoSSUM Estimates v. other pollsters (23/08/2024)
+## Comparison of PoSSUM Estimates v. other pollsters 
+Below is a comparison of PoSSUM Estimates (The main PoSSUM estimate is **PoSSUM MrP** - see the Techincal Report for a description of the other estimates) for users polled between 15/08/2024 and 23/08/2024. 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1edd9c15-2d81-4a98-a951-a608a838c7c0"
 alt="CrossPollsters_Topline_Comparison" width="750" />
