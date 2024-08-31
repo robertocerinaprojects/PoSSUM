@@ -44,6 +44,7 @@ alt="CrossPollsters_Topline_Comparison" width="750" />
 
 
 ## How to cite
+```bibtex
 @misc{PoSSUM,
   author = {Roberto Cerina},
   title = {PoSSUM: A Protocol for Surveying Social-media Users with Multimodal LLMs},
