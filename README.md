@@ -52,6 +52,7 @@ alt="CrossPollsters_Topline_Comparison" width="750" />
   howpublished = {\url{https://github.com/robertocerinaprojects/PoSSUM}},
   note = {Version: alpha 1.0.0}
 }
+```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
