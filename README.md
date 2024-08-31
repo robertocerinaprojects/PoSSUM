@@ -25,7 +25,7 @@ This repository contains the following information:
 
 | Population | Vote2024                      | Topline               |
 |------------|--------------------------------|-----------------------|
-| Voters     | Kamala Harris                  | 45.8 (43.8, 47.8)     |
+| Voters     | Kamala Harris (D)              | 45.8 (43.8, 47.8)     |
 | Voters     | Donald Trump (R)               | 45.6 (43.3, 47.2)     |
 | Voters     | Robert F. Kennedy Jr. (Ind.)   | 5.5 (3.8, 7.5)        |
 | Voters     | Jill Stein (G)                 | 0.9 (0.5, 2.6)        |
