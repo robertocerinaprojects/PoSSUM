@@ -23,9 +23,9 @@ This repository contains the following information:
 Note: The MrP fits a random-walk temporal effect to the data. The values reported below are a projection of the public's preferences on exactly the last day of the fieldwork period -- not the average across fieldwork days. 
 
 
-### Topline estimates ( 07/09/2024 to 11/09/2024)
+### Topline estimates 
 
-| Population | Vote2024                      | 15/08 to  23/08 | 07/09 to 11/09 |
+| Population | Vote2024                       | 15/08 to  23/08       | 07/09 to 11/09        |
 |------------|--------------------------------|-----------------------|-----------------------|
 | Voters     | Kamala Harris (D)              |                       |                       |
 | Voters     | Donald Trump (R)               |                       |                       |
