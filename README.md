@@ -64,9 +64,9 @@ alt="CrossPollsters_Topline_Comparison" width="750" />
 
 ### Aggregate MrP (Updated as of 11/09/2024)
 
-## State-level Projections 
+#### State-level Projections 
 
-## Distribution of Projected Electoral College Votes 
+#### Distribution of Projected Electoral College Votes 
 
 ## 
 
