@@ -19,9 +19,39 @@ This repository contains the following information:
 - The [utils](./utils) folder presents a series of helpful functions to execute the protocol;
 - The [exe](./exe.R) script runs the poll from top to bottom. This should only be executed after the parameters described in [README_BEFORE_NEW_POLL.txt](./R%20scripts/README_BEFORE_NEW_POLL.txt) are updated. 
 
-## PoSSUM Estimates (23/08/2024)
+## PoSSUM Estimates 
+Note: The MrP fits a random-walk temporal effect to the data. The values reported below are a projection of the public's preferences on exactly the last day of the fieldwork period -- not the average across fieldwork days. 
 
-### Topline estimates of 2024 Vote Choice
+
+### Topline estimates ( 07/09/2024 to 11/09/2024)
+
+| Population | Vote2024                      | Topline               |
+|------------|--------------------------------|-----------------------|
+| Voters     | Kamala Harris (D)              |    |
+| Voters     | Donald Trump (R)               |      |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   |         |
+| Voters     | Jill Stein (G)                 |         |
+| Voters     | Cornel West (Ind.)             |        |
+| Voters     | Chase Oliver (L)               |           |
+| Adults     | Stay Home                      |       |
+| Adults     | Turnout                        |        |
+
+### Topline estimates (15/08/2024 to 23/08/2024)
+
+| Population | Vote2024                      | Topline               |
+|------------|--------------------------------|-----------------------|
+| Voters     | Kamala Harris (D)              |    |
+| Voters     | Donald Trump (R)               |      |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   |         |
+| Voters     | Jill Stein (G)                 |         |
+| Voters     | Cornel West (Ind.)             |        |
+| Voters     | Chase Oliver (L)               |           |
+| Adults     | Stay Home                      |       |
+| Adults     | Turnout                        |        |
+
+
+### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
+The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states, and weighted with an MrP model which did not take into account temporal dynamics. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.  
 
 | Population | Vote2024                      | Topline               |
 |------------|--------------------------------|-----------------------|
@@ -36,7 +66,9 @@ This repository contains the following information:
 
 
 ### Cross-Pollsters Comparison
-Below is a comparison of PoSSUM Estimates (The main PoSSUM estimate is **PoSSUM MrP** - see the Techincal Report for a description of the other estimates) for users polled between 15/08/2024 and 23/08/2024. 
+
+15/08/2024 to 23/08/2024
+ 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1edd9c15-2d81-4a98-a951-a608a838c7c0"
 alt="CrossPollsters_Topline_Comparison" width="750" />
