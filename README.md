@@ -53,12 +53,22 @@ The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endors
 
 ### Cross-Pollsters Comparison
 
+07/09/2024 to 11/09/2024
+
 15/08/2024 to 23/08/2024
  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1edd9c15-2d81-4a98-a951-a608a838c7c0"
 alt="CrossPollsters_Topline_Comparison" width="750" />
 </p>
+
+### Aggregate MrP (Updated as of 11/09/2024)
+
+## State-level Projections 
+
+## Distribution of Projected Electoral College Votes 
+
+## 
 
 
 ## How to cite
