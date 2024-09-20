@@ -58,9 +58,10 @@ data{
   int v20_id[N]; // 2020 vote level id
   int<lower=1> v20_N; // number of 2020 vote levels 
 
-  //int v22_id[N]; // 2022 vote level id
-  //int<lower=1> v22_N; // number of 2022 vote levels 
 
+  // DAY RANDOM EFFECT
+  int dte_id[N]; // days-to-election id
+  int<lower=1> dte_N; // number of days-to-election
 
 
 }
@@ -105,9 +106,10 @@ parameters {
   matrix[v20_N,J-1] xi_v20;
   vector<lower=0>[J-1] xi_v20_sd; 
 
-  //matrix[v22_N,J-1] xi_v22;
-  //vector<lower=0>[J-1] xi_v22_sd; 
 
+  // PARAMS FOR DTE EFFECTS
+  matrix[dte_N,J-1] delta;
+  vector<lower=0>[J-1] delta_sd; 
 
 
   // CONTEXT EFFECTS
@@ -143,12 +145,10 @@ transformed parameters {
   matrix[inc_N,J-1] xi_inc_s;
   matrix[age_N,J-1] xi_age_s;
   matrix[v20_N,J-1] xi_v20_s;  
-  //matrix[v22_N,J-1] xi_v22_s;  
 
-  //matrix[gen_v20_N,J-1] xi_gen_v20_s;
- // matrix[eth_v20_N,J-1] xi_eth_v20_s;
- // matrix[edu_v20_N,J-1] xi_edu_v20_s;
- // matrix[age_v20_N,J-1] xi_age_v20_s;
+
+  // TRANSFORMED PARAMS DTE EFFETCS
+  matrix[dte_N,J-1] delta_s;
 
 
   // LINEAR PREDICTOR
@@ -165,25 +165,36 @@ transformed parameters {
     xi_inc_s[:,j-1] = xi_inc[:,j-1] * xi_inc_sd[j-1];
     xi_age_s[:,j-1] = xi_age[:,j-1] * xi_age_sd[j-1];
     xi_v20_s[:,j-1] = xi_v20[:,j-1] * xi_v20_sd[j-1];
-    //xi_v22_s[:,j-1] = xi_v22[:,j-1] * xi_v22_sd[j-1];
+
+    delta_s[:,j-1] = delta[:,j-1] * delta_sd[j-1];
 
     lambda_s[:,j-1] = convolve_bym2(psi[:,j-1], phi[:,j-1], lambda_sd, area_N, kappa, group_size, group_idx, omega[j-1], inv_sqrt_scaling_factor);
 
+
+
     mu_s[yes_area,j] = 
+      
       beta_s[j-1] + 
+      
+      delta_s[dte_id[yes_area],j-1] + 
+      
       lambda_s[area_id[yes_area],j-1] +
+      
       Z[yes_area,Z_id[j,1:P[j]]]*eta_s[1:P[j],j-1] + 
+
       xi_gen_s[gen_id[yes_area],j-1] + 
       xi_eth_s[eth_id[yes_area],j-1] + 
       xi_inc_s[inc_id[yes_area],j-1] + 
       xi_age_s[age_id[yes_area],j-1] + 
       xi_v20_s[v20_id[yes_area],j-1] ;
-      //xi_v22_s[v20_id[yes_area],j-1] ;
 
 
 
     mu_s[no_area,j] = 
+
       beta_s[j-1] + 
+
+      delta_s[dte_id[no_area],j-1] + 
 
       gamma_s[j-1] + 
 
@@ -192,7 +203,9 @@ transformed parameters {
       xi_inc_s[inc_id[no_area],j-1] + 
       xi_age_s[age_id[no_area],j-1] + 
       xi_v20_s[v20_id[no_area],j-1] ;
-      //xi_v22_s[v22_id[no_area],j-1] ;
+
+
+
   }
 
 
@@ -215,6 +228,7 @@ model {
     omega[j] ~ beta(0.5,0.5);
   }
   lambda_sd ~ std_normal();
+
 
 
   // NO-AREA FIXED EFFECT PRIOR
@@ -243,9 +257,6 @@ model {
   to_vector(xi_v20) ~ std_normal();
   xi_v20_sd ~ std_normal();
 
-  //to_vector(xi_v22) ~ std_normal();
-  //xi_v22_sd ~ std_normal();
-
 
 
   // AGE SWINGS IN PREFERENCES
@@ -258,6 +269,7 @@ model {
   xi_age_sd ~ std_normal();
 
   
+
   // INCOME SWINGS IN PREFERENCES
   for(j in 1:(J-1)){
     sum(xi_inc[,j]) ~ normal(0, 0.01 * inc_N); // sum-to-0 constraint
@@ -266,6 +278,17 @@ model {
     }
   }
   xi_inc_sd ~ std_normal();
+
+
+
+  // DAILY SWINGS IN PREFERENCES
+  for(j in 1:(J-1)){
+    sum(delta[,j]) ~ normal(0, 0.01 * dte_N); // sum-to-0 constraint
+      for(i in 2:dte_N){ 
+        delta[i,j] ~ normal(delta[i-1,j],1); 
+    }
+  }
+  delta_sd ~ std_normal();
 
 
 
