@@ -26,15 +26,15 @@ Note: The MrP fits a random-walk temporal effect to the data. The values reporte
 ### Topline estimates ( 07/09/2024 to 11/09/2024)
 
 | Population | Vote2024                      | 15/08 to  23/08 | 07/09 to 11/09 |
-|------------|--------------------------------|-----------------------|
-| Voters     | Kamala Harris (D)              |    | |
-| Voters     | Donald Trump (R)               |      | |
-| Voters     | Robert F. Kennedy Jr. (Ind.)   |         | |
-| Voters     | Jill Stein (G)                 |         | |
-| Voters     | Cornel West (Ind.)             |        | |
-| Voters     | Chase Oliver (L)               |           | |
-| Adults     | Stay Home                      |       | |
-| Adults     | Turnout                        |        | |
+|------------|--------------------------------|-----------------------|-----------------------|
+| Voters     | Kamala Harris (D)              |                       |                       |
+| Voters     | Donald Trump (R)               |                       |                       |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   |                       |                       |
+| Voters     | Jill Stein (G)                 |                       |                       |
+| Voters     | Cornel West (Ind.)             |                       |                       |
+| Voters     | Chase Oliver (L)               |                       |                       |
+| Adults     | Stay Home                      |                       |                       |
+| Adults     | Turnout                        |                       |                       |
 
 ### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
 The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states, and weighted with an MrP model which did not take into account temporal dynamics. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.  
