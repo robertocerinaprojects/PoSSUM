@@ -53,10 +53,8 @@ The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endors
 
 ### Cross-Pollsters Comparison
 
-07/09/2024 to 11/09/2024
-
 <p align="center">
-  <img src="https://github.com/user-attachments/files/17166602/vote2024_population_2024-09-07_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17166732/vote2024_population_2024-09-07_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="750" />
 </p>
 
@@ -64,7 +62,7 @@ alt="CrossPollsters_Topline_Comparison" width="750" />
 15/08/2024 to 23/08/2024
 
 <p align="center">
-  <img src="https://github.com/user-attachments/files/17166596/vote2024_population_2024-08-15_2024-08-23.pdf"
+  <img src="https://github.com/user-attachments/files/17166741/vote2024_population_2024-08-15_2024-08-23.pdf"
 alt="CrossPollsters_Topline_Comparison" width="750" />
 </p>
 
