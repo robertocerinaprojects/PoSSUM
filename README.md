@@ -81,12 +81,14 @@ alt="CrossPollsters_Topline_Comparison" width="650" />
   <figcaption align="center">Geographic distribution of difference in probability of winning a given state between Donald Trump (R, in red) and Kamala Harris (D, in blue). </figcaption>
 </figure>
 
-<figure style="width: 150; text-align: center;">
-<p align="center">
-  <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
-alt="CrossPollsters_Topline_Comparison" width="650" />
-</p>
-  <figcaption  align="center" style="width: 50px; text-align: center;"> Figure 5: Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.</figcaption>
+<figure style="width: 650px; text-align: center; margin: 0 auto;">
+  <p align="center">
+    <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+    alt="CrossPollsters_Topline_Comparison" width="650" />
+  </p>
+  <figcaption style="width: 650px; text-align: center; margin: 0 auto;">
+    Figure 5: Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.
+  </figcaption>
 </figure>
 
 ## How to cite
