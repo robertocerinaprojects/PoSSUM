@@ -20,8 +20,6 @@ This repository contains the following information:
 - The [exe](./exe.R) script runs the poll from top to bottom. This should only be executed after the parameters described in [README_BEFORE_NEW_POLL.txt](./R%20scripts/README_BEFORE_NEW_POLL.txt) are updated. 
 
 ## PoSSUM Estimates 
-Note: The MrP fits a random-walk temporal effect to the data. The values reported below are a projection of the public's preferences on exactly the last day of the fieldwork period -- not the average across fieldwork days. 
-
 
 ### Topline estimates 
 
@@ -68,15 +66,13 @@ alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
 </p>
 
 ### Aggregate MrP (Updated as of 12/09/2024)
-
-#### State-level Projections 
+Note: State-level projections are derived from an MrP model which leverages all of the PoSSUM polls fielded during the campaign. Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
 
 <p align="center">
   <img src="https://github.com/user-attachments/files/17172857/vote_share_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
-#### Distribution of Projected Electoral College Votes 
 
 <p align="center">
   <img src="https://github.com/user-attachments/files/17172859/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
