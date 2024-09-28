@@ -69,7 +69,7 @@ Note: State-level projections are derived from an MrP model which leverages all 
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 2):</b> Geographic distribution of the Republican vote share margin on the Democrats.</p>
+  <p><b>Figure 2):</b> Geographic distribution of Donald Trump's (R) vote share margin over Kamala Harris (D).</p>
 </div>
 <p align="center">
   <kbd>
@@ -80,7 +80,7 @@ alt="Vote_Share_Margin" width="650" />
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 3):</b> Geographic distribution of the Republican win-probability margin on the Democrats.</p>
+  <p><b>Figure 3):</b> Geographic distribution of Donald Trump's (R) win probability margin over Kamala Harris (D).</p>
 </div>
 <p align="center">
   <kbd>
