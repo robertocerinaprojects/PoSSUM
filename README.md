@@ -81,7 +81,7 @@ alt="CrossPollsters_Topline_Comparison" width="650" />
   <figcaption align="center">Geographic distribution of difference in probability of winning a given state between Donald Trump (R, in red) and Kamala Harris (D, in blue). </figcaption>
 </figure>
 
-<figure style="width: 650px; text-align: center;">
+<figure style="width: 150; text-align: center;">
 <p align="center">
   <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
