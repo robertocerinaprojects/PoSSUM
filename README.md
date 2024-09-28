@@ -34,13 +34,17 @@ This repository contains the following information:
 | Voters     | Jill Stein (G)                 | 1.1 (0.4, 2.5)         | 0.4 (0.1, 1)          |
 | Voters     | Cornel West (Ind.)             | 0.2 (0, 0.7)           | 0.8 (0.2, 2.1)        |
 | Voters     | Chase Oliver (L)               | 1 (0.5, 2)             | 0.9 (0.4, 1.7)        |
-| Adults     | Stay Home                      | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     |
+| Adults     | Abstention                     | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     |
 | Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     |
 
-### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
-The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states, and weighted with an MrP model which did not take into account temporal dynamics. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.  
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Table 1:</b> National vote share estimates for each candidate across polls. The estimates are formatted as: $Q_{0.5} \mbox{ } (Q_{0.05} \mbox{ },\mbox{ } Q_{0.95})$. </p>
+</div>
 
-| Population | Vote2024                      | Topline               |
+### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
+
+
+| Population | Vote2024                       | Topline               |
 |------------|--------------------------------|-----------------------|
 | Voters     | Kamala Harris (D)              | 45.8 (43.8, 47.8)     |
 | Voters     | Donald Trump (R)               | 45.6 (43.3, 47.2)     |
@@ -48,48 +52,58 @@ The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endors
 | Voters     | Jill Stein (G)                 | 0.9 (0.5, 2.6)        |
 | Voters     | Cornel West (Ind.)             | 0.8 (0.4, 1.8)        |
 | Voters     | Chase Oliver (L)               | 1 (0.4, 1.9)          |
-| Adults     | Stay Home                      | 28.3 (26, 30.5)       |
+| Adults     | Abstention                     | 28.3 (26, 30.5)       |
 | Adults     | Turnout                        | 71.7 (69.5, 74)       |
 
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Table 1':</b> The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.</p>
+</div>
 
 ### Cross-Pollsters Comparison
 
 #### 2<sup>nd</sup> Poll
 
 <p align="center">
+  <kbd>
   <img src="https://github.com/user-attachments/files/17166732/vote2024_population_2024-09-07_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison_2nd_poll" width="850" />
+  </kbd>
 </p>
 
 #### 1<sup>st</sup> Poll
 
 <p align="center">
+    <kbd>
   <img src="https://github.com/user-attachments/files/17166741/vote2024_population_2024-08-15_2024-08-23.pdf"
 alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
+    </kbd>
 </p>
 
 ### Aggregate MrP (Updated as of 12/09/2024)
 Note: State-level projections are derived from an MrP model which leverages all of the PoSSUM polls fielded during the campaign. Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
 
 <p align="center">
+  <kbd>
   <img src="https://github.com/user-attachments/files/17172878/vote_share_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
+  </kbd>
 </p>
 
 <figure>
 <p align="center">
+  <kbd>
   <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
+  </kbd>
 </p>
   <figcaption align="center">Geographic distribution of difference in probability of winning a given state between Donald Trump (R, in red) and Kamala Harris (D, in blue). </figcaption>
 </figure>
 
 <figure style="text-align: center;">
+  <kbd>
   <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
        alt="CrossPollsters_Topline_Comparison" width="650" />
-  <figcaption style="max-width: 650px; margin: 0 auto;">
-    Figure 5: Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.
-  </figcaption>
+  </kbd>
 </figure>
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
