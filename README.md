@@ -57,23 +57,31 @@ The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endors
 
 <p align="center">
   <img src="https://github.com/user-attachments/files/17166732/vote2024_population_2024-09-07_2024-09-12.pdf"
-alt="CrossPollsters_Topline_Comparison" width="850" />
+alt="CrossPollsters_Topline_Comparison_2nd_poll" width="850" />
 </p>
 
 #### 1<sup>st</sup> Poll
 
 <p align="center">
   <img src="https://github.com/user-attachments/files/17166741/vote2024_population_2024-08-15_2024-08-23.pdf"
-alt="CrossPollsters_Topline_Comparison" width="850" />
+alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
 </p>
 
 ### Aggregate MrP (Updated as of 12/09/2024)
 
 #### State-level Projections 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/files/17172857/vote_share_map_2024-08-15_2024-09-12.pdf"
+alt="CrossPollsters_Topline_Comparison" width="650" />
+</p>
+
 #### Distribution of Projected Electoral College Votes 
 
-## 
+<p align="center">
+  <img src="https://github.com/user-attachments/files/17172859/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+alt="CrossPollsters_Topline_Comparison" width="650" />
+</p>
 
 
 ## How to cite
