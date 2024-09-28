@@ -86,7 +86,7 @@ alt="CrossPollsters_Topline_Comparison" width="650" />
   <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
-  <figcaption align="center">Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.</figcaption>
+  <figcaption  align="center" style="width: 650px; text-align: center;">Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.</figcaption>
 </figure>
 
 ## How to cite
