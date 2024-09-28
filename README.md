@@ -74,12 +74,12 @@ alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
