@@ -69,13 +69,17 @@ alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
 Note: State-level projections are derived from an MrP model which leverages all of the PoSSUM polls fielded during the campaign. Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/files/17172857/vote_share_map_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17172878/vote_share_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+alt="CrossPollsters_Topline_Comparison" width="650" />
+</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/files/17172859/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
