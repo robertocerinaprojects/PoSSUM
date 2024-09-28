@@ -25,16 +25,16 @@ Note: The MrP fits a random-walk temporal effect to the data. The values reporte
 
 ### Topline estimates 
 
-| Population | Vote2024                       | 15/08 to  23/08       | 07/09 to 11/09        |
-|------------|--------------------------------|-----------------------|-----------------------|
-| Voters     | Kamala Harris (D)              |                       |                       |
-| Voters     | Donald Trump (R)               |                       |                       |
-| Voters     | Robert F. Kennedy Jr. (Ind.)   |                       |                       |
-| Voters     | Jill Stein (G)                 |                       |                       |
-| Voters     | Cornel West (Ind.)             |                       |                       |
-| Voters     | Chase Oliver (L)               |                       |                       |
-| Adults     | Stay Home                      |                       |                       |
-| Adults     | Turnout                        |                       |                       |
+| Population | Vote2024                       | 15/08 to 23/08         | 07/09 to 11/09        |
+|------------|--------------------------------|------------------------|-----------------------|
+| Voters     | Kamala Harris (D)              | 46.4 (44.2, 48.3)      | 47.6 (45.4, 50)       |
+| Voters     | Donald Trump (R)               | 47.2 (45.1, 49.3)      | 46.8 (44.4, 49.6)     |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   | 3.7 (2.4, 5.3)         | 3 (1.7, 4.8)          |
+| Voters     | Jill Stein (G)                 | 1.1 (0.4, 2.5)         | 0.4 (0.1, 1)          |
+| Voters     | Cornel West (Ind.)             | 0.2 (0, 0.7)           | 0.8 (0.2, 2.1)        |
+| Voters     | Chase Oliver (L)               | 1 (0.5, 2)             | 0.9 (0.4, 1.7)        |
+| Adults     | Stay Home                      | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     |
+| Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     |
 
 ### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
 The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states, and weighted with an MrP model which did not take into account temporal dynamics. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.  
