@@ -1,5 +1,8 @@
+
 <p align="center">
-  <img src="https://github.com/robertocerinaprojects/PoSSUM/assets/51832016/c6aab730-ec8c-4bda-a9a3-2024594b0ec8" alt="PossumLogo" width="200" style="border: 2px solid #808080; />
+  <kbd>
+  <img src="https://github.com/robertocerinaprojects/PoSSUM/assets/51832016/c6aab730-ec8c-4bda-a9a3-2024594b0ec8" alt="PossumLogo" width="200" />
+  </kbd>
 </p>
 
 
