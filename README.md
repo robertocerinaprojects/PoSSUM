@@ -91,7 +91,7 @@ alt="Probability_Margin" width="650" />
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 4):</b> Expected distribution of Electoral College Votes for the two major parties. The legends present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
+  <p><b>Figure 4):</b> Expected distribution of Electoral College Votes for the two major parties. The legend present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
 </div>
 <p align="center">
   <kbd>
@@ -103,7 +103,7 @@ alt="Probability_Margin" width="650" />
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 5):</b> Expected distribution of Popular Vote share by party. The legends present the likelihood of various scenarios. The expected share is highlighted on the x-axis.</p>
+  <p><b>Figure 5):</b> Expected distribution of Popular Vote share by party. The legend present the likelihood of various scenarios. The expected share is highlighted on the x-axis.</p>
 </div>
 <p align="center">
   <kbd>
