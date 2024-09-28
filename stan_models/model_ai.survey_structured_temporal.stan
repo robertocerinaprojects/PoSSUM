@@ -59,6 +59,11 @@ data{
   int<lower=1> v20_N; // number of 2020 vote levels 
 
 
+  // DAY RANDOM EFFECT
+  int poll_id[N]; // identifier for temporally slated poll
+  int<lower=1> poll_N; // number of polls
+
+
 }
 
 transformed data {
@@ -102,12 +107,19 @@ parameters {
   vector<lower=0>[J-1] xi_v20_sd; 
 
 
+  // PARAMS FOR DTE EFFECTS
+  matrix[poll_N,J-1] delta;
+  vector<lower=0>[J-1] delta_sd; 
+
+
   // CONTEXT EFFECTS
   matrix[P_max,J-1] eta_s; 
 
 
+
   // NO-AREA EFFECT
   vector[J-1] gamma_s; 
+
 
 
 }
@@ -135,6 +147,10 @@ transformed parameters {
   matrix[v20_N,J-1] xi_v20_s;  
 
 
+  // TRANSFORMED PARAMS DTE EFFETCS
+  matrix[poll_N,J-1] delta_s;
+
+
   // LINEAR PREDICTOR
   // set first level of the nominal outcome to 0 - baseline category
   mu_s[1:N,1] = rep_vector(0,N);
@@ -150,6 +166,8 @@ transformed parameters {
     xi_age_s[:,j-1] = xi_age[:,j-1] * xi_age_sd[j-1];
     xi_v20_s[:,j-1] = xi_v20[:,j-1] * xi_v20_sd[j-1];
 
+    delta_s[:,j-1] = delta[:,j-1] * delta_sd[j-1];
+
     lambda_s[:,j-1] = convolve_bym2(psi[:,j-1], phi[:,j-1], lambda_sd, area_N, kappa, group_size, group_idx, omega[j-1], inv_sqrt_scaling_factor);
 
 
@@ -157,7 +175,9 @@ transformed parameters {
     mu_s[yes_area,j] = 
       
       beta_s[j-1] + 
-            
+      
+      delta_s[poll_id[yes_area],j-1] + 
+      
       lambda_s[area_id[yes_area],j-1] +
       
       Z[yes_area,Z_id[j,1:P[j]]]*eta_s[1:P[j],j-1] + 
@@ -173,6 +193,8 @@ transformed parameters {
     mu_s[no_area,j] = 
 
       beta_s[j-1] + 
+
+      delta_s[poll_id[no_area],j-1] + 
 
       gamma_s[j-1] + 
 
@@ -256,6 +278,17 @@ model {
     }
   }
   xi_inc_sd ~ std_normal();
+
+
+
+  // DAILY SWINGS IN PREFERENCES
+  for(j in 1:(J-1)){
+    sum(delta[,j]) ~ normal(0, 0.01 * poll_N); // sum-to-0 constraint
+      for(i in 2:poll_N){ 
+        delta[i,j] ~ normal(delta[i-1,j],1); 
+    }
+  }
+  delta_sd ~ std_normal();
 
 
 
