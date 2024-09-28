@@ -73,16 +73,21 @@ Note: State-level projections are derived from an MrP model which leverages all 
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
 
+<figure>
 <p align="center">
   <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
+  <figcaption align="center">Geographic distribution of difference in probability of winning a given state between Donald Trump (R, in red) and Kamala Harris (D, in blue). </figcaption>
+</figure>
 
+<figure>
 <p align="center">
   <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
 alt="CrossPollsters_Topline_Comparison" width="650" />
 </p>
-
+  <figcaption align="center">Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.</figcaption>
+</figure>
 
 ## How to cite
 ```bibtex
