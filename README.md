@@ -24,7 +24,9 @@ This repository contains the following information:
 
 ## PoSSUM Estimates 
 
-### Topline estimates 
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Table 1):</b> National vote share estimates for each candidate across polls. The estimates are formatted as: $Q_{0.5} \mbox{ } (Q_{0.05} \mbox{ },\mbox{ } Q_{0.95})$. </p>
+</div>
 
 | Population | Vote2024                       | 15/08 to 23/08         | 07/09 to 11/09        |
 |------------|--------------------------------|------------------------|-----------------------|
@@ -37,12 +39,86 @@ This repository contains the following information:
 | Adults     | Abstention                     | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     |
 | Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     |
 
+
+## Cross-Pollsters Comparison
+
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Table 1:</b> National vote share estimates for each candidate across polls. The estimates are formatted as: $Q_{0.5} \mbox{ } (Q_{0.05} \mbox{ },\mbox{ } Q_{0.95})$. </p>
+  <p><b>Figure 1.a):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 07/09 to 12/09. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
 </div>
+
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17166732/vote2024_population_2024-09-07_2024-09-12.pdf"
+alt="CrossPollsters_Topline_Comparison_2nd_poll" width="850" />
+  </kbd>
+</p>
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 1.b):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 15/08 to 23/08. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
+</div>
+
+<p align="center">
+    <kbd>
+  <img src="https://github.com/user-attachments/files/17166741/vote2024_population_2024-08-15_2024-08-23.pdf"
+alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
+    </kbd>
+</p>
+
+## Aggregate MrP (Updated as of 12/09/2024)
+Note: State-level projections are derived from an MrP model which leverages all of the PoSSUM polls fielded during the campaign. Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
+
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 2):</b> Geographic distribution of the Republican vote share margin on the Democrats.</p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17172878/vote_share_map_2024-08-15_2024-09-12.pdf"
+alt="Vote_Share_Margin" width="650" />
+  </kbd>
+</p>
+
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 3):</b> Geographic distribution of the Republican win-probability margin on the Democrats.</p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
+alt="Probability_Margin" width="650" />
+  </kbd>
+</p>
+
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 4):</b> Expected distribution of Electoral College Votes for the two major parties. The legends present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17174830/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+       alt="Electoral_College_Vote" width="650" />
+  </kbd>
+</p>
+
+
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 5):</b> Expected distribution of Popular Vote share by party. The legends present the likelihood of various scenarios. The expected share is highlighted on the x-axis.</p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17174826/PV_histogram_2024-08-15_2024-09-12.pdf"
+       alt="Popular_Vote" width="650" />
+  </kbd>
+</p>
+
+
 
 ### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
 
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Table 1':</b> The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.</p>
+</div>
 
 | Population | Vote2024                       | Topline               |
 |------------|--------------------------------|-----------------------|
@@ -54,70 +130,6 @@ This repository contains the following information:
 | Voters     | Chase Oliver (L)               | 1 (0.4, 1.9)          |
 | Adults     | Abstention                     | 28.3 (26, 30.5)       |
 | Adults     | Turnout                        | 71.7 (69.5, 74)       |
-
-<div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Table 1':</b> The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.</p>
-</div>
-
-### Cross-Pollsters Comparison
-
-#### 2<sup>nd</sup> Poll
-
-<p align="center">
-  <kbd>
-  <img src="https://github.com/user-attachments/files/17166732/vote2024_population_2024-09-07_2024-09-12.pdf"
-alt="CrossPollsters_Topline_Comparison_2nd_poll" width="850" />
-  </kbd>
-</p>
-
-#### 1<sup>st</sup> Poll
-
-<p align="center">
-    <kbd>
-  <img src="https://github.com/user-attachments/files/17166741/vote2024_population_2024-08-15_2024-08-23.pdf"
-alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
-    </kbd>
-</p>
-
-### Aggregate MrP (Updated as of 12/09/2024)
-Note: State-level projections are derived from an MrP model which leverages all of the PoSSUM polls fielded during the campaign. Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
-
-<p align="center">
-  <kbd>
-  <img src="https://github.com/user-attachments/files/17172878/vote_share_map_2024-08-15_2024-09-12.pdf"
-alt="Vote_Share_Margin" width="650" />
-  </kbd>
-</p>
-
-<p align="center">
-  <kbd>
-  <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
-alt="" width="650" />
-  </kbd>
-</p>
-
-
-<figure style="text-align: center;">
-  <kbd>
-  <img src="https://github.com/user-attachments/files/17174830/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
-       alt="Electoral_College_Vote" width="650" />
-  </kbd>
-</figure>
-
-<div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 5:</b> Expected distribution of Electoral College Votes for the two major parties. The legends present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
-</div>
-
-<figure style="text-align: center;">
-  <kbd>
-  <img src="https://github.com/user-attachments/files/17174826/PV_histogram_2024-08-15_2024-09-12.pdf"
-       alt="Popular_Vote" width="650" />
-  </kbd>
-</figure>
-
-<div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 6:</b> Expected distribution of Popular Vote share by party. The legends present the likelihood of various scenarios. The expected share is highlighted on the x-axis.</p>
-</div>
 
 ## How to cite
 ```bibtex
