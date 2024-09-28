@@ -114,7 +114,7 @@ alt="Probability_Margin" width="650" />
 
 
 
-### (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
+## (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
   <p><b>Table 1':</b> The initial PoSSUM estimates, fit to a ballot-access map prior to RFK Jr. endorsig Trump and withrdrawing from key states. This is **depreciated**, and should not be used to analyse poll-to-poll swings. It is retained here for transparency.</p>
