@@ -85,29 +85,38 @@ Note: State-level projections are derived from an MrP model which leverages all 
 <p align="center">
   <kbd>
   <img src="https://github.com/user-attachments/files/17172878/vote_share_map_2024-08-15_2024-09-12.pdf"
-alt="CrossPollsters_Topline_Comparison" width="650" />
+alt="Vote_Share_Margin" width="650" />
   </kbd>
 </p>
 
-<figure>
 <p align="center">
   <kbd>
   <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
-alt="CrossPollsters_Topline_Comparison" width="650" />
+alt="" width="650" />
   </kbd>
 </p>
-  <figcaption align="center">Geographic distribution of difference in probability of winning a given state between Donald Trump (R, in red) and Kamala Harris (D, in blue). </figcaption>
-</figure>
+
 
 <figure style="text-align: center;">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17172877/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
-       alt="CrossPollsters_Topline_Comparison" width="650" />
+  <img src="https://github.com/user-attachments/files/17174830/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+       alt="Electoral_College_Vote" width="650" />
   </kbd>
 </figure>
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 5:</b> Expected distribution of Popular and Electoral College votes by party. The legends present the likelihood of various scenarios.</p>
+  <p><b>Figure 5:</b> Expected distribution of Electoral College Votes for the two major parties. The legends present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
+</div>
+
+<figure style="text-align: center;">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17174826/PV_histogram_2024-08-15_2024-09-12.pdf"
+       alt="Popular_Vote" width="650" />
+  </kbd>
+</figure>
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 6:</b> Expected distribution of Popular Vote share by party. The legends present the likelihood of various scenarios. The expected share is highlighted on the x-axis.</p>
 </div>
 
 ## How to cite
