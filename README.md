@@ -9,7 +9,7 @@
 # PoSSUM
 A Protocol for Surveying Social-media Users with Multimodal LLMs
 
-Click to downloas and view Reports:
+Click to download and view Reports (Topline + Crosstabs + State-level Estimates):
 - [2<sup>nd</sup> Poll - September 7<sup>th</sup> to 12<sup>th</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_120924.pdf)
 - [1<sup>st</sup> Poll - August 15<sup>th</sup> to 23<sup>rd</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_230824.pdf)
 
