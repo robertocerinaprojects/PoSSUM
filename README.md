@@ -9,6 +9,11 @@
 # PoSSUM
 A Protocol for Surveying Social-media Users with Multimodal LLMs
 
+Click to downloas and view Reports:
+- [2<sup>nd</sup> Poll - September 7<sup>th</sup> to 12<sup>th</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_120924.pdf)
+- [1<sup>st</sup> Poll - August 15<sup>th</sup> to 23<sup>rd</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_230824.pdf)
+
+
 ## How to use this repository 
 This repository contains the following information: 
 - The [Technical Report](./PoSSUM_Technical_Report.pdf) is a detailed note on how the protocol works (*please download it and view it on your own machine as the GitHub preview doesn't display properly*). It contains a detailed description of the algorithmic routines used, as well as the statistical models applied to weight the data. It also presents granular crosstab-level comparisons of PoSSUM's estimates against those of other pollsters in the field during similar dates;
