@@ -10,6 +10,7 @@
 A Protocol for Surveying Social-media Users with Multimodal LLMs
 
 Click to download and view Reports (Topline + Crosstabs + State-level Estimates):
+- [3<sup>rd</sup> Poll - September 22<sup>th</sup> to 29<sup>th</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_290924.pdf)
 - [2<sup>nd</sup> Poll - September 7<sup>th</sup> to 12<sup>th</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_120924.pdf)
 - [1<sup>st</sup> Poll - August 15<sup>th</sup> to 23<sup>rd</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_230824.pdf)
 
@@ -33,44 +34,33 @@ This repository contains the following information:
   <p><b>Table 1):</b> National vote share estimates for each candidate across polls. The estimates are formatted as: $Q_{0.5} \mbox{ } (Q_{0.05} \mbox{ },\mbox{ } Q_{0.95})$. </p>
 </div>
 
-| Population | Vote2024                       | 15/08 to 23/08         | 07/09 to 11/09        |
-|------------|--------------------------------|------------------------|-----------------------|
-| Voters     | Kamala Harris (D)              | 46.4 (44.2, 48.3)      | 47.6 (45.4, 50)       |
-| Voters     | Donald Trump (R)               | 47.2 (45.1, 49.3)      | 46.8 (44.4, 49.6)     |
-| Voters     | Robert F. Kennedy Jr. (Ind.)   | 3.7 (2.4, 5.3)         | 3 (1.7, 4.8)          |
-| Voters     | Jill Stein (G)                 | 1.1 (0.4, 2.5)         | 0.4 (0.1, 1)          |
-| Voters     | Cornel West (Ind.)             | 0.2 (0, 0.7)           | 0.8 (0.2, 2.1)        |
-| Voters     | Chase Oliver (L)               | 1 (0.5, 2)             | 0.9 (0.4, 1.7)        |
-| Adults     | Abstention                     | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     |
-| Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     |
+| Population | Vote2024                      | 15/08 to 23/08         | 07/09 to 11/09        | 09/22 to 09/29        |
+|------------|-------------------------------|------------------------|-----------------------|-----------------------|
+| Voters     | Kamala Harris (D)              | 46.4 (44.2, 48.3)      | 47.6 (45.4, 50)       | 47.2 (44.8, 49.5)     |
+| Voters     | Donald Trump (R)               | 47.2 (45.1, 49.3)      | 46.8 (44.4, 49.6)     | 47.2 (45, 49.8)       |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   | 3.7 (2.4, 5.3)         | 3 (1.7, 4.8)          | 2.6 (1.4, 4.2)        |
+| Voters     | Jill Stein (G)                 | 1.1 (0.4, 2.5)         | 0.4 (0.1, 1)          | 0.5 (0.1, 1.8)        |
+| Voters     | Cornel West (Ind.)             | 0.2 (0, 0.7)           | 0.8 (0.2, 2.1)        | 1.2 (0.5, 2.4)        |
+| Voters     | Chase Oliver (L)               | 1 (0.5, 2)             | 0.9 (0.4, 1.7)        | 0.7 (0.2, 1.8)        |
+| Adults     | Abstention                     | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     | 25.5 (22.5, 28.7)     |
+| Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     | 74.5 (71.3, 77.5)     |
 
 
 ## Cross-Pollsters Comparison
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 1.a):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 07/09 to 12/09. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
+  <p><b>Figure 1.a):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 22/09 to 29/09. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
 </div>
 
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17166732/vote2024_population_2024-09-07_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17290111/vote2024_population_2024-09-22_2024-09-29.pdf"
 alt="CrossPollsters_Topline_Comparison_2nd_poll" width="850" />
   </kbd>
 </p>
 
-<div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 1.b):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 15/08 to 23/08. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
-</div>
-
-<p align="center">
-    <kbd>
-  <img src="https://github.com/user-attachments/files/17166741/vote2024_population_2024-08-15_2024-08-23.pdf"
-alt="CrossPollsters_Topline_Comparison_1st_poll" width="850" />
-    </kbd>
-</p>
-
 ## Aggregate MrP (Updated as of 12/09/2024)
-Note: State-level projections are derived from an MrP model which leverages all of the PoSSUM polls fielded during the campaign. Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
+Note: State-level projections are derived from an MrP model which leverages the most recent PoSSUM polls fielded during the campaign (fieldwork having begun within 30 days of the latest poll). Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
@@ -78,7 +68,7 @@ Note: State-level projections are derived from an MrP model which leverages all 
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17172878/vote_share_map_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17290127/vote_share_map_2024-09-07_2024-09-29.pdf"
 alt="Vote_Share_Margin" width="650" />
   </kbd>
 </p>
@@ -89,22 +79,20 @@ alt="Vote_Share_Margin" width="650" />
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17172879/probability_map_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17290517/probability_map_2024-09-07_2024-09-29.pdf"
 alt="Probability_Margin" width="650" />
   </kbd>
 </p>
-
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
   <p><b>Figure 4):</b> Expected distribution of Electoral College Votes for the two major parties. The legend present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17174830/EC_votes_histogram_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17290157/EC_votes_histogram_2024-09-07_2024-09-29.pdf"
        alt="Electoral_College_Vote" width="650" />
   </kbd>
 </p>
-
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
@@ -112,11 +100,44 @@ alt="Probability_Margin" width="650" />
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17174826/PV_histogram_2024-08-15_2024-09-12.pdf"
+  <img src="https://github.com/user-attachments/files/17290168/PV_histogram_2024-09-07_2024-09-29.pdf"
        alt="Popular_Vote" width="650" />
   </kbd>
 </p>
 
+
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 6):</b> Distribution of Electoral Votes by Popular Vote share, across 500 simulated election results. These probabilities apply if ``the election were held on any given day between 09/22 and 09/29''. </p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17290283/PV_v_EC_2024-09-07_2024-09-29.pdf"
+       alt="Popular_Vote_v_Electoral_College_Vote" width="650" />
+  </kbd>
+</p>
+
+
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 7):</b>  Trump's Electoral College Advantage -- i.e. the number of Popular Vote \% points he can afford to lose by, and still win the Electoral College. It's estimated above as the largest Republican margin around which a majority of simulations indicate a Harris win.  </p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17290284/R_EC_advantage2024-09-07_2024-09-29.pdf"
+       alt="R_EC_advantage" width="650" />
+  </kbd>
+</p>
+
+
+<div style="width: 750px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 8):</b>  Comparing PoSSUM's latest state-level estimates of Trump's \% margin over Harris against: [left] the Uniform Swing model, assuming popular vote estimates according to the FiveThirtyEight model; [right] the FiveThirtyEight State-level Forecast estimates. If PoSSUM's estimates perfectly match the benchmarks, we would see a perfect set of dots on the y = x line. Relative to the benchmarks, Bias, RMSE, Correlation, Coverage and \% Agreement on who would win the state are presented in the legends. States for which PoSSUM and the benchmarks disagree are highlighted in bold font. Positive bias indicates that PoSSUM is over-estimating the Trump margin over Harris, on average across states, relative to the benchmarks. </p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17290526/state_benchmark_2024-09-07_2024-09-29.pdf"
+       alt="States Benchmark" width="850" />
+  </kbd>
+</p>
 
 
 ## (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
