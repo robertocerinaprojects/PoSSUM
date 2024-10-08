@@ -124,12 +124,12 @@ alt="Probability_Margin" width="650" />
 <p align="center">
   <kbd>
   <img src="https://github.com/user-attachments/files/17290284/R_EC_advantage2024-09-07_2024-09-29.pdf"
-       alt="R_EC_advantage" width="650" />
+       alt="R_EC_advantage" width="500" />
   </kbd>
 </p>
 
 
-<div style="width: 750px; margin: 0 auto; text-align: center;">
+<div style="width: 500px; margin: 0 auto; text-align: center;">
   <p><b>Figure 8):</b>  Comparing PoSSUM's latest state-level estimates of Trump's \% margin over Harris against: [left] the Uniform Swing model, assuming popular vote estimates according to the FiveThirtyEight model; [right] the FiveThirtyEight State-level Forecast estimates. If PoSSUM's estimates perfectly match the benchmarks, we would see a perfect set of dots on the y = x line. Relative to the benchmarks, Bias, RMSE, Correlation, Coverage and \% Agreement on who would win the state are presented in the legends. States for which PoSSUM and the benchmarks disagree are highlighted in bold font. Positive bias indicates that PoSSUM is over-estimating the Trump margin over Harris, on average across states, relative to the benchmarks. </p>
 </div>
 <p align="center">
