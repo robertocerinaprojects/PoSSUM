@@ -40,6 +40,14 @@ data{
   matrix[N, P_sum] Z; // state- level covariate matrix
   int<lower = 1> Z_id[J, P_max]; // state- level covariate matrix
 
+  // AREA-IND INTERACTION EFFECTS 
+  int<lower=1> P_INT[J];
+  int<lower=1> P_INT_sum ;
+  int<lower=1> P_INT_max ;
+  matrix[N, P_INT_sum] X; 
+  int<lower = 1> X_id[J, P_INT_max]; 
+  int<lower = 1> INT_N;
+  int<lower = 1> INT[INT_N]; 
 
 
   // DATA INDIVIDIAL-LEVEL EFFECTS
@@ -114,7 +122,8 @@ parameters {
 
   // CONTEXT EFFECTS
   matrix[P_max,J-1] eta_s; 
-
+  matrix[P_INT_max,J-1] xi_eta; 
+  vector<lower=0>[J-1] xi_eta_sd; 
 
 
   // NO-AREA EFFECT
@@ -146,6 +155,8 @@ transformed parameters {
   matrix[age_N,J-1] xi_age_s;
   matrix[v20_N,J-1] xi_v20_s;  
 
+  // AREA-IND INTERACTIONS
+  matrix[P_INT_max,J-1] xi_eta_s; 
 
   // TRANSFORMED PARAMS DTE EFFETCS
   matrix[poll_N,J-1] delta_s;
@@ -156,9 +167,10 @@ transformed parameters {
   mu_s[1:N,1] = rep_vector(0,N);
 
 
-
   // start counting effects from the 2nd level of the nominal outcome
   for(j in 2:J){
+
+    xi_eta_s[:,j-1] = xi_eta[:,j-1] * xi_eta_sd[j-1];
 
     xi_gen_s[:,j-1] = xi_gen[:,j-1] * xi_gen_sd[j-1];
     xi_eth_s[:,j-1] = xi_eth[:,j-1] * xi_eth_sd[j-1];
@@ -209,6 +221,14 @@ transformed parameters {
   }
 
 
+  for(j in INT){
+
+      mu_s[yes_area,j+1] = 
+        mu_s[yes_area,j+1] +
+        X[yes_area,X_id[j+1,1:P_INT[j+1]]]*xi_eta_s[1:P_INT[j+1],j];
+
+    }
+
 
 }
 
@@ -240,6 +260,10 @@ model {
   to_vector(eta_s) ~ std_normal();
 
 
+  to_vector(xi_eta) ~ std_normal();
+  xi_eta_sd ~ std_normal();
+
+
   
   // GENDER EFFECT
   to_vector(xi_gen) ~ std_normal();
@@ -248,10 +272,6 @@ model {
   // ETHNICITY EFFECT
   to_vector(xi_eth) ~ std_normal();
   xi_eth_sd ~ std_normal();
-
-  // EDUCATION EFFECT
-  //to_vector(xi_edu) ~ std_normal();
-  //xi_edu_sd ~ std_normal();
 
   // PAST VOTE EFFECTS
   to_vector(xi_v20) ~ std_normal();
