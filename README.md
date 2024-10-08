@@ -49,7 +49,7 @@ This repository contains the following information:
 ## Cross-Pollsters Comparison
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 1.a):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 22/09 to 29/09. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
+  <p><b>Figure 1):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 22/09 to 29/09. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
 </div>
 
 <p align="center">
