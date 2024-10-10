@@ -119,7 +119,7 @@ alt="Probability_Margin" width="650" />
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 7):</b>  Trump's Electoral College Advantage -- i.e. the number of Popular Vote \% points he can afford to lose by, and still win the Electoral College. It's estimated above as the largest Republican margin around which a majority of simulations indicate a Harris win.  </p>
+  <p><b>Figure 7):</b>  Trump's Electoral College Advantage -- i.e. the number of Popular Vote % points he can afford to lose by, and still win the Electoral College. It's estimated above as the largest Republican margin around which a majority of simulations indicate a Harris win.  </p>
 </div>
 <p align="center">
   <kbd>
@@ -130,7 +130,7 @@ alt="Probability_Margin" width="650" />
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 8):</b>  Comparing PoSSUM's latest state-level estimates of Trump's \% margin over Harris against: [left] the Uniform Swing model, assuming popular vote estimates according to the FiveThirtyEight model; [right] the FiveThirtyEight State-level Forecast estimates. If PoSSUM's estimates perfectly match the benchmarks, we would see a perfect set of dots on the y = x line. Relative to the benchmarks, Bias, RMSE, Correlation, Coverage and \% Agreement on who would win the state are presented in the legends. States for which PoSSUM and the benchmarks disagree are highlighted in bold font. Positive bias indicates that PoSSUM is over-estimating the Trump margin over Harris, on average across states, relative to the benchmarks. </p>
+  <p><b>Figure 8):</b>  Comparing PoSSUM's latest state-level estimates of Trump's % margin over Harris against: [left] the Uniform Swing model, assuming popular vote estimates according to the FiveThirtyEight model; [right] the FiveThirtyEight State-level Forecast estimates. If PoSSUM's estimates perfectly match the benchmarks, we would see a perfect set of dots on the y = x line. Relative to the benchmarks, Bias, RMSE, Correlation, Coverage and \% Agreement on who would win the state are presented in the legends. States for which PoSSUM and the benchmarks disagree are highlighted in bold font. Positive bias indicates that PoSSUM is over-estimating the Trump margin over Harris, on average across states, relative to the benchmarks. </p>
 </div>
 <p align="center">
   <kbd>
