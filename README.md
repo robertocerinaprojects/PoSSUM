@@ -51,7 +51,7 @@ This repository contains the following information:
 ## Cross-Pollsters Comparison
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 1):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 05/10 to 15/10. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts. PoSSUM MrP is the main PoSSUM estimate -- unweighted (Raw) and lower speculation (Mod. Spec.) estimatates are also presented below for comparison. </p>
+  <p><b>Figure 1):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 05/10 to 15/10. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts. PoSSUM MrP is the main PoSSUM estimate -- unweighted (Raw) and lower speculation (Spec. Mod.) estimatates are also presented below for comparison. </p>
 </div>
 
 <p align="center">
