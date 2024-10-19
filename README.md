@@ -35,33 +35,34 @@ This repository contains the following information:
   <p><b>Table 1):</b> National vote share estimates for each candidate across polls. The estimates are formatted as: $Q_{0.5} \mbox{ } (Q_{0.05} \mbox{ },\mbox{ } Q_{0.95})$. </p>
 </div>
 
-| Population | Vote2024                      | 15/08 to 23/08         | 07/09 to 11/09        | 09/22 to 09/29        |
-|------------|-------------------------------|------------------------|-----------------------|-----------------------|
-| Voters     | Kamala Harris (D)              | 46.4 (44.2, 48.3)      | 47.6 (45.4, 50)       | 47.2 (44.8, 49.5)     |
-| Voters     | Donald Trump (R)               | 47.2 (45.1, 49.3)      | 46.8 (44.4, 49.6)     | 47.2 (45, 49.8)       |
-| Voters     | Robert F. Kennedy Jr. (Ind.)   | 3.7 (2.4, 5.3)         | 3 (1.7, 4.8)          | 2.6 (1.4, 4.2)        |
-| Voters     | Jill Stein (G)                 | 1.1 (0.4, 2.5)         | 0.4 (0.1, 1)          | 0.5 (0.1, 1.8)        |
-| Voters     | Cornel West (Ind.)             | 0.2 (0, 0.7)           | 0.8 (0.2, 2.1)        | 1.2 (0.5, 2.4)        |
-| Voters     | Chase Oliver (L)               | 1 (0.5, 2)             | 0.9 (0.4, 1.7)        | 0.7 (0.2, 1.8)        |
-| Adults     | Abstention                     | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     | 25.5 (22.5, 28.7)     |
-| Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     | 74.5 (71.3, 77.5)     |
+| Population | Vote2024                      | 15/08 to 23/08         | 07/09 to 11/09        | 09/22 to 09/29        | 10/05 to 10/15        |
+|------------|-------------------------------|------------------------|-----------------------|-----------------------|-----------------------|
+| Voters     | Kamala Harris (D)              | 46.4 (44.2, 48.3)      | 47.6 (45.4, 50)       | 47.2 (44.8, 49.5)     | 47.7 (45.5, 49.8)     |
+| Voters     | Donald Trump (R)               | 47.2 (45.1, 49.3)      | 46.8 (44.4, 49.6)     | 47.2 (45, 49.8)       | 46.1 (44.2, 48.2)     |
+| Voters     | Robert F. Kennedy Jr. (Ind.)   | 3.7 (2.4, 5.3)         | 3 (1.7, 4.8)          | 2.6 (1.4, 4.2)        | 2.7 (1.7, 4)          |
+| Voters     | Jill Stein (G)                 | 1.1 (0.4, 2.5)         | 0.4 (0.1, 1)          | 0.5 (0.1, 1.8)        | 0.9 (0.3, 2.1)        |
+| Voters     | Cornel West (Ind.)             | 0.2 (0, 0.7)           | 0.8 (0.2, 2.1)        | 1.2 (0.5, 2.4)        | 0.6 (0.2, 1.4)        |
+| Voters     | Chase Oliver (L)               | 1 (0.5, 2)             | 0.9 (0.4, 1.7)        | 0.7 (0.2, 1.8)        | 1.6 (0.8, 3.2)        |
+| Adults     | Abstention                     | 30 (27.6, 32.2)        | 24.6 (21.4, 27.6)     | 25.5 (22.5, 28.7)     | 27.4 (25, 29.8)       |
+| Adults     | Turnout                        | 70 (67.8, 72.4)        | 75.4 (72.4, 78.6)     | 74.5 (71.3, 77.5)     | 72.6 (70.2, 75)       |
+
 
 
 ## Cross-Pollsters Comparison
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
-  <p><b>Figure 1):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 22/09 to 29/09. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
+  <p><b>Figure 1):</b> A comparison of PoSSUM's national vote share estimates with those of other pollsters, for digital fieldwork conducted from 05/10 to 15/10. Polls sharing at least one fieldwork day with PoSSUM are included in the comparison. The distribution of the poll is simply the posterior distribution of the poll given non-informative priors and the (weighted) choice counts.</p>
 </div>
 
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290111/vote2024_population_2024-09-22_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446734/vote2024_population_2024-10-05_2024-10-15.pdf"
 alt="CrossPollsters_Topline_Comparison_2nd_poll" width="850" />
   </kbd>
 </p>
 
-## Aggregate MrP (Updated as of 12/09/2024)
-Note: State-level projections are derived from an MrP model which leverages the most recent PoSSUM polls fielded during the campaign (fieldwork having begun within 30 days of the latest poll). Variation between polls is accounted for via random-walk poll-level effects. The projections reflect the most likely estimates as of the field-dates of the most recent available poll. 
+## Aggregate MrP (Updated as of 15/10/2024)
+Note: State-level projections are derived from an MrP model which leverages the most recent PoSSUM poll. See the press release for details on MrP variables, and technical report for statistical details. 
 
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
@@ -69,7 +70,7 @@ Note: State-level projections are derived from an MrP model which leverages the 
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290127/vote_share_map_2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446742/vote_share_map_2024-10-05_2024-10-15.pdf"
 alt="Vote_Share_Margin" width="650" />
   </kbd>
 </p>
@@ -80,40 +81,38 @@ alt="Vote_Share_Margin" width="650" />
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290517/probability_map_2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446745/probability_map_2024-10-05_2024-10-15.pdf"
 alt="Probability_Margin" width="650" />
   </kbd>
 </p>
+
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
   <p><b>Figure 4):</b> Expected distribution of Electoral College Votes for the two major parties. The legend present the likelihood of various scenarios. The expected number of electoral votes is highlighted on the x-axis.</p>
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290157/EC_votes_histogram_2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446746/EC_votes_histogram_2024-10-05_2024-10-15.pdf"
        alt="Electoral_College_Vote" width="650" />
   </kbd>
 </p>
-
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
   <p><b>Figure 5):</b> Expected distribution of Popular Vote share by party. The legend present the likelihood of various scenarios. The expected share is highlighted on the x-axis.</p>
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290168/PV_histogram_2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446748/PV_histogram_2024-10-05_2024-10-15.pdf"
        alt="Popular_Vote" width="650" />
   </kbd>
 </p>
-
-
 
 <div style="width: 500px; margin: 0 auto; text-align: center;">
   <p><b>Figure 6):</b> Distribution of Electoral Votes by Popular Vote share, across 500 simulated election results. These probabilities apply if ``the election were held on any given day between 09/22 and 09/29''. </p>
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290283/PV_v_EC_2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446749/PV_v_EC_2024-10-05_2024-10-15.pdf"
        alt="Popular_Vote_v_Electoral_College_Vote" width="650" />
   </kbd>
 </p>
@@ -124,7 +123,7 @@ alt="Probability_Margin" width="650" />
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290284/R_EC_advantage2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446750/R_EC_advantage2024-10-05_2024-10-15.pdf"
        alt="R_EC_advantage" width="500" />
   </kbd>
 </p>
@@ -135,10 +134,11 @@ alt="Probability_Margin" width="650" />
 </div>
 <p align="center">
   <kbd>
-  <img src="https://github.com/user-attachments/files/17290526/state_benchmark_2024-09-07_2024-09-29.pdf"
+  <img src="https://github.com/user-attachments/files/17446752/state_benchmark_2024-10-05_2024-10-15.pdf"
        alt="States Benchmark" width="850" />
   </kbd>
 </p>
+
 
 
 ## (DEPRECIATED) Initial Topline estimates (15/08/2024 to 23/08/2024)
