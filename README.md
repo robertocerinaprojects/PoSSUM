@@ -35,7 +35,7 @@ This repository contains the following information:
   <p><b>Table 1):</b> National vote share estimates for each candidate across polls. The estimates are formatted as: $Q_{0.5} \mbox{ } (Q_{0.05} \mbox{ },\mbox{ } Q_{0.95})$. </p>
 </div>
 
-| Population | Vote2024                      | 15/08 to 23/08         | 07/09 to 11/09        | 09/22 to 09/29        | 10/05 to 10/15        |
+| Population | Vote2024                      | 15/08 to 23/08         | 07/09 to 11/09        | 22/09 to 29/09        | 05/10 to 15/10        |
 |------------|-------------------------------|------------------------|-----------------------|-----------------------|-----------------------|
 | Voters     | Kamala Harris (D)              | 46.4 (44.2, 48.3)      | 47.6 (45.4, 50)       | 47.2 (44.8, 49.5)     | 47.7 (45.5, 49.8)     |
 | Voters     | Donald Trump (R)               | 47.2 (45.1, 49.3)      | 46.8 (44.4, 49.6)     | 47.2 (45, 49.8)       | 46.1 (44.2, 48.2)     |
