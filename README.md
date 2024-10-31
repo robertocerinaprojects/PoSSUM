@@ -127,6 +127,16 @@ alt="Probability_Margin" width="650" />
 </p>
 
 
+<div style="width: 500px; margin: 0 auto; text-align: center;">
+  <p><b>Figure 9):</b> Comparison against alternative estimates of the R-D margin, zooming in on competitive states. </p>
+</div>
+<p align="center">
+  <kbd>
+  <img src="https://github.com/user-attachments/files/17589577/state_benchmark_swing_2024-10-17_2024-10-26.pdf"
+       alt="States Benchmark" width="850" />
+  </kbd>
+</p>
+
 
 ## Cross-Pollsters Comparison (updated to  15<sup>th</sup> October)
 
