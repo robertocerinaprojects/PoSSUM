@@ -17,10 +17,6 @@ provides a step-by-step GitHub Codespaces workflow for preparing the
 published synthetic surveys, refitting the Stan models, and generating
 poststratified estimates and plots.
 
-It includes all five survey waves under High and Moderate speculation,
-alongside pooled temporal models. Saved initial results and diagnostics
-are also available.
-
 ## Reports 
 
 Click to download and view Reports (Topline + Crosstabs + State-level Estimates):
