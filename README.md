@@ -21,9 +21,6 @@ It includes all five survey waves under High and Moderate speculation,
 alongside pooled temporal models. Saved initial results and diagnostics
 are also available.
 
-Start with the replication repository's README. The remaining scripts
-needed to reproduce the paper's evaluation figures are being incorporated.
-
 ## Reports 
 
 Click to download and view Reports (Topline + Crosstabs + State-level Estimates):
