@@ -9,6 +9,23 @@
 # PoSSUM
 A Protocol for Surveying Social-media Users with Multimodal LLMs
 
+
+## Run the replication workflow
+
+The [PoSSUM dynamic replication repository](https://github.com/robertocerinaprojects/PoSSUM_dynamic_replication)
+provides a step-by-step GitHub Codespaces workflow for preparing the
+published synthetic surveys, refitting the Stan models, and generating
+poststratified estimates and plots.
+
+It includes all five survey waves under High and Moderate speculation,
+alongside pooled temporal models. Saved initial results and diagnostics
+are also available.
+
+Start with the replication repository's README. The remaining scripts
+needed to reproduce the paper's evaluation figures are being incorporated.
+
+## Reports 
+
 Click to download and view Reports (Topline + Crosstabs + State-level Estimates):
 - [5<sup>th</sup> Poll - October 17<sup>th</sup> to 26<sup>th</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_261024.pdf)
 - [4<sup>th</sup> Poll - October 5<sup>th</sup> to 15<sup>th</sup>](https://github.com/robertocerinaprojects/PoSSUM/raw/main/press_releases/report_151024.pdf)
