@@ -12,6 +12,8 @@ A Protocol for Surveying Social-media Users with Multimodal LLMs
 
 ## Run the replication workflow
 
+This repository is just a snapshot from the PoSSUM polls as they were generated during the 2024 US election campaign. It is intended to preserve the forecast as it was made then. 
+
 The [PoSSUM dynamic replication repository](https://github.com/robertocerinaprojects/PoSSUM_dynamic_replication)
 provides a step-by-step GitHub Codespaces workflow for preparing the
 published synthetic surveys, refitting the Stan models, and generating
